@@ -1,2 +1,4 @@
-# Analysis-of-variance-
-Test the hypothesis that average annual precipitation in Buffalo and San Diego is equal for three time periods.
+Analysis of Variance
+R Analysis to test the hypothesis that average annual precipitation in Buffalo and San Diego is equal for three time periods 1940-1967, 1968-1996, and 1997-2025. The dataset consists of a random sample of 30 years from the period 1940-2025. I used RStudio to complete ANOVA, Kruskal-Wallis, and the median test calculaitons, as well as performed the Levene and Kolmogorov-Smirnov diagnostic tests for normality.
+All of the tests failed to detect statistically significant differences across the period of time for both cities. Buffalo showed an upward trend in later periods. San Diego results were varying but there was no significant difference.
+This analysis of variance showed how the test choice matters. ANOVA is best when the assumptions are met. Kruskal-Wallis is more appropriate for skewed data like San Diego. It also showed that failing to reject a null hypothesis doesn't mean no changes have occurred but small samples can mask trends. Running assumption checks before selecting a final test because the K-S and Levene tests told you if ANOVA's assumptions were met, or whether it is needed to use Kruskal-Wallis
