@@ -1,3 +1,6 @@
+# Geography 411 – Homework 2 
+# Name: Gianna Hy
+# Description: Analysis of variance 
 setwd("C:/Users/ash42/OneDrive/geo411/hw2 411")
 getwd
 getwd(data)
